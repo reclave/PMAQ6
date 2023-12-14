@@ -2,6 +2,9 @@ import streamlit as st
 from keras.models import load_model
 from PIL import Image
 import numpy as np
+from util import set_background
+
+set_background('./background/background.png')
 
 # Function to classify the image
 def classify(image, model, class_names):
