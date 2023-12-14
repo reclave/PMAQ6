@@ -21,10 +21,8 @@ def classify(image, model, class_names):
 
     return class_name, conf_score
     
-# set title
 st.title('Diagnosis Based on X-Ray Photos')
-
-# set header
+st.text('By Raihan Devano Sinaga (5026211198) and Najla Athira Anggoro Putri (5026211145)')
 st.header('Upload an X-ray image')
 
 # upload file
